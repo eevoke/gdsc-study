@@ -27,4 +27,9 @@ API 명세서
 - 친구 추가 POST/frineds
 - 친구 삭제 DELET/friends/{friend_id}
 - 할 일 생성 POST/todo 
-- 할 일 체크 POST/todo/{todo_id}/check 
+- 할 일 체크 POST/todo/{todo_id}/check
+
+어플리케이션 실행 에러 화면
+![img](https://github.com/user-attachments/assets/d40607ab-5e76-4661-8a18-95d9cf98bc55)
+
+
