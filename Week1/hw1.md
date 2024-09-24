@@ -18,4 +18,13 @@ GET, POST, PUT, PATCH, DELETE
 - 백엔드: DB에서 가져온 컨텐츠 데이터를 프론트에게 응답 
 4. API 
 - 어플리케이션에서 원하는 기능을 수행하기 위헤 소통하는 구체적 방법을 정의한 것. 
-- 백엔드 API : 어떤 http method, url을 사용해야 하는지 정의, 어떤 응답을 보내야 하는지 정의. 
+- 백엔드 API : 어떤 http method, url을 사용해야 하는지 정의, 어떤 응답을 보내야 하는지 정의.
+
+ 
+API 명세서
+- 로그인 POST /login
+- 수정 POST/users/{user_id}
+- 친구 추가 POST/frineds
+- 친구 삭제 DELET/friends/{friend_id}
+- 할 일 생성 POST/todo 
+- 할 일 체크 POST/todo/{todo_id}/check 
